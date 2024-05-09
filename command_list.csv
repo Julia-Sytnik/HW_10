@@ -1,0 +1,182 @@
+    1  clear
+    2  clear
+    3  git config --global user.name Julia-Sytnik
+    4  git config --get user.name
+    5  git config --global user.email uliasitnik539@gmail.com
+    6  git config --get user.email
+    7  mkdir git_goit
+    8  cd git_goit
+    9  ls -l
+   10  git clone https://github.com/Julia-Sytnik/HW_10.git
+   11  ls -l
+   12  cd test_repo
+   13  cd HW_10
+   14  ls -l
+   15  ls -la
+   16  vim .gitignore
+   17  touch text_ignore.txt
+   18  ls -l
+   19  git status
+   20  git add
+   21  git commit -m "changed gitignire"
+   22  git add git commit -m "changed gitignire"
+   23  git status
+   24  git add .
+   25  git commit -m "changed gitignire"
+   26  git status
+   27  git push origin main
+   28  git add
+   29  commit
+   30  git commit -m "changed gitignire
+lear
+clear
+
+
+
+ls -l
+commit
+ lear
+git commit -m "changed gitignire
+   31  clear
+   32  clear
+   33  touch main_test.txt
+   34  ls -l
+   35  git add .
+   36  git status
+   37   git commit -m "changed main_test.txt"
+   38   
+   39  clear
+   40  Air-Andrej:test_repo andrej$ git config --global user.name Julia-Sytnik
+   41  Air-Andrej:test_repo andrej$ git config --get user.name
+   42  Julia-Sytnik
+   43  Air-Andrej:test_repo andrej$ git config --global user.email uliasitnik539@gmail.com
+   44  Air-Andrej:test_repo andrej$ git config --get user.email
+   45  uliasitnik539@gmail.com
+   46  Air-Andrej:test_repo andrej$ mkdir git_goit
+   47  Air-Andrej:test_repo andrej$ cd git_goit
+   48  Air-Andrej:git_goit andrej$ ls -l
+   49  total 0
+   50  Air-Andrej:git_goit andrej$ git clone https://github.com/Julia-Sytnik/HW_10.git
+   51  Cloning into 'HW_10'...
+   52  remote: Enumerating objects: 4, done.
+   53  remote: Counting objects: 100% (4/4), done.
+   54  remote: Compressing objects: 100% (3/3), done.
+   55  remote: Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+   56  Receiving objects: 100% (4/4), done.
+   57  Air-Andrej:git_goit andrej$ ls -l
+   58  total 0
+   59  drwxr-xr-x@ 5 andrej  staff  160 May  9 18:31 HW_10
+   60  Air-Andrej:git_goit andrej$ cd test_repo
+   61  -bash: cd: test_repo: No such file or directory
+   62  Air-Andrej:git_goit andrej$ 
+   63  Air-Andrej:git_goit andrej$ cd HW_10
+   64  Air-Andrej:HW_10 andrej$ ls -l
+   65  total 8
+   66  -rw-r--r--  1 andrej  staff  7 May  9 18:31 README.md
+   67  Air-Andrej:HW_10 andrej$ ls -la
+   68  total 16
+   69  drwxr-xr-x@  5 andrej  staff  160 May  9 18:34 .
+   70  drwxr-xr-x@  3 andrej  staff   96 May  9 18:34 ..
+   71  drwxr-xr-x@ 13 andrej  staff  416 May  9 18:34 .git
+   72  -rw-r--r--   1 andrej  staff  371 May  9 18:31 .gitignore
+   73  -rw-r--r--   1 andrej  staff    7 May  9 18:31 README.md
+   74  Air-Andrej:HW_10 andrej$ vim .gitignore
+   75  Air-Andrej:HW_10 andrej$ touch text_ignore.txt
+   76  Air-Andrej:HW_10 andrej$ ls -l
+   77  total 8
+   78  -rw-r--r--  1 andrej  staff  7 May  9 18:31 README.md
+   79  -rw-r--r--  1 andrej  staff  0 May  9 18:44 text_ignore.txt
+   80  Air-Andrej:HW_10 andrej$ git status
+   81  On branch main
+   82  Your branch is up to date with 'origin/main'.
+   83  Changes not staged for commit:
+   84    (use "git add <file>..." to update what will be committed)
+   85    (use "git restore <file>..." to discard changes in working directory)
+   86  modified:   .gitignore
+   87  no changes added to commit (use "git add" and/or "git commit -a")
+   88  Air-Andrej:HW_10 andrej$ git add
+   89  Nothing specified, nothing added.
+   90  hint: Maybe you wanted to say 'git add .'?
+   91  hint: Turn this message off by running
+   92  hint: "git config advice.addEmptyPathspec false"
+   93  Air-Andrej:HW_10 andrej$ git commit -m "changed gitignire"
+   94  On branch main
+   95  Your branch is up to date with 'origin/main'.
+   96  Changes not staged for commit:
+   97    (use "git add <file>..
+
+
+
+
+
+
+clear
+git commit -m "changed gitignire; error: pathspec 'gitignire' did not matc;  clear; clear;  Air-Andrej:HW_10 andrej$   (use "git add <file>..
+   98  clear
+   99  ls -ls
+  100  ls -l
+  101  git status
+  102  git push origin main
+  103  git add .
+  104  git status
+  105  git commit -m "text_ignore.txt"
+  106  clear
+  107  clear
+  108  git checkout -b test_brancg
+  109  ls -l
+  110  git status
+  111  git log
+  112  ls -l
+  113  git status
+  114  git log
+  115  git checkout -b develop
+  116  git branch
+  117  git status
+  118  touch develop_test.txt
+  119  ls -l
+  120  git add .
+  121  git status
+  122  git commid -m "develop_test.txt"
+  123  vim
+  124  vim develop_test.txt file
+  125  git status
+  126  git add .
+  127  git status
+  128   git commit -m "develop_test.txt file"
+  129  vim develop_test.txt
+  130  ls -l
+  131  vim develop_test.txt file
+  132  ls -l
+  133  vim develop_test.txt
+  134  touch develop_test.txt file
+  135  ls -l
+  136  vim develop_test.txt
+  137  touch develop_test.txt_fine
+  138  ls -l
+  139  git status
+  140  la -l
+  141  ls -l
+  142  git add .
+  143  git status
+  144  git commit -m "develop_test.txt_file"
+  145  clear
+  146  clear
+  147  git checkout - main
+  148  ls -l
+  149  git status
+  150  git checkout main
+  151  git status 
+  152  git pull
+  153  git merge "develop-main"
+  154  git merge "develop main"
+  155  git merge "develop"
+  156  git rebase develop-main
+  157  git checkout main-to-merge-into
+  158  git merge develop
+  159  git log
+  160  clear
+  161  clear
+  162  history > command_list.csv
+  163  git add .
+  164  git status
+  165  history > command_list.csv
